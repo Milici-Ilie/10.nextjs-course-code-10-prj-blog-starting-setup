@@ -825,58 +825,78 @@ return (
 [For.detail.about.this.section.please.check.the.SECTION.8]
 [For.detail.about.this.section.please.check.the.SECTION.8]
 
-# 10. Adding Backend Code with API Routes (Fullstack React). On GitHub: "..."
+# 10. Adding Backend Code with API Routes (Fullstack React). On GitHub: ..."9.nextjs-course-code-07-api-routes-starting-project"...
 
 > How to send "NewsLetter's"/Email's to a Data-Base
 > How to Store data from an Email/NewsLetter in some Data-Base
 > How to POST a request with API Routes
 > How to DELETE some content/data/request/etc with API Routes
 
-    ## ✅I. subtitlu
+    ## ✅I. -How to write API Routes
+             -Parsing the Incomng Request & Executing Server-side Code
 
-    ## ✅II. subtitlu
+> Always create a folder named exactly 'api', we create this Folder 'api' most of the time in the folder 'pages'. Check also the App/Project structure folders & files
+> The API Route is very recommended when we want to talk to a DataBase and secure our info's
+> API = very good for Secure our data's when we sent our data to a BackEnd DataBase
 
-    ## ✅III. subtitlu
+[PAGES/API/feedback.js]/[PAGES/index.js]/[SECTION.9/Lesson.227]
 
-    ## ✅IV. subtitlu
+                                                                             ❗❗❗🍡🍡[API ROUTES]🍡🍡❗❗❗
 
-    ## ✅V. subtitlu
+    ## ✅II. -How to send reequests to API Routes
 
-    ## ✅VI. subtitlu
+> În general, atunci când vorbim despre formatul de date sau schimbul de date, folosim "JSON" cu majuscule. Când ne referim la extensia de fișier sau la nume de fișiere care conțin date în format JSON, folosim "json" cu litere mici.
 
-    ## ✅VII. subtitlu
+[PAGES/index.js]/[]
 
-    ## ✅VIII. subtitlu
+                                                                        ❗❗❗🚙🚙[REQUESTS TO API ROUTES]🚙🚙❗❗❗
 
-    ## ✅IX. subtitlu
+    ## ✅III. -How to use API Routes to get Data
+               -How to create a Button that will redirect the User to a page where he can see the data/info's inserted in the BACKEND Data-Base
+               -How to create a Button that will send a get request to the feedback API route and get the '{feedback:data}' from the file [PAGES/API/feedback.js]
 
-    ## ✅X. subtitlu
+[PAGES/API/feedback.js]/[PAGES/index.js]
 
-    ## ✅XI. subtitlu
+                                                                          ❗❗❗🦧🦧[GETTING DATA WITH API]🦧🦧❗❗❗
 
-    ## ✅XII. subtitlu
+    ## ✅IV. -How to use API Routes for Pre-Rendering Pages
 
-    ## ✅XIII. subtitlu
+> This method is good when we have the APP and the DataBase/HTTP/API on our computer, To get rid of the unnecessary requests being sent...
 
-    ## ✅XIV. subtitlu
+[PAGES/FEEDBACK/index.js]/[PAGES/API/feedback.js]
 
-    ## ✅XV. subtitlu
+                                                                          ❗❗❗👾👾[PRE-RENDERING API ROUTES]👾👾❗❗❗
 
-    ## ✅XVI. subtitlu
+    ## ✅V.   -Creating & Using Dynamic API Routes
+              -How to display/fetch data for every DYNAMIC ID with API
+              -How to display different content when pressing a Button, unique content for every ID, autto fetching the data's from every new data
 
-    ## ✅XVII. subtitlu
+> Let's say for exemple that we have like in our case the API folowed by our folders "API-LINK/api/some feedback ID" and at the end we want a Dynamic API ID
+> NOTE ! ! ! In the File [feedbackId].js we will create the connection between the Folder [API] and any ID pages that we added there, for ex a Link will be: "LINK-API/pages/api/[feedbackId].js", the [feedbackId].js will be Dynamic depending and changing on every unique ID
+> NOTE!!! Dynamic API requests work also for different requests: PUT, POST, DELETE, GET, ETC... , it depends what function we write. For ex: [[[if(req.method === 'DELETE'){... delete code ...}]]]
 
-    ## ✅XVIII. subtitlu
+[PAGES/API/feedbackId.js]/[PAGES/API/feedback.js]/[PAGES/FEEDBACK/index.js]
 
-    ## ✅XIX. subtitlu
+                                                                          ❗❗❗📿📿[DYNAMIC API ID's]📿📿❗❗❗
 
-    ## ✅XX. subtitlu
+    ## ✅VI. -Exploring Different Ways of Structuring API Route Files
 
-# 11. Titlu
+[SEXTION.9/Lesson.233]
 
-## ✅I. subtitlu
+# 11. Complete App Example: On GIT-HUB=> "10.nextjs-course-code-10-prj-blog-starting-setup"
 
-    ## ✅II. subtitlu
+    ## ✅I. -How to create Dynamic <Header/> on the top that will be displayed on every page
+             -Dynamic <Header/>
+
+[SECTION.8.for.more.detailed.exemple]/[PAGES/_app.js]/[COMPONENTS/LAYOUT/layout.js]/[COMPONENTS/LAYOUT/main-navigation]/[COMPONENTS/LAYOUT/logo.js]
+
+                                                                          ❗❗❗🤕🤕[DYNAMIC HEADER]🤕🤕❗❗❗
+
+    ## ✅II. -Working on the 'Featured Posts'
+
+[COMPONENTS/HOME-PAGE/featured-posts.js]/[COMPONENTS/POSTS/posts-grid.js]
+
+                                                                          ❗❗❗📮📮[FEATURED POSTS]📮📮❗❗❗
 
     ## ✅III. subtitlu
 
