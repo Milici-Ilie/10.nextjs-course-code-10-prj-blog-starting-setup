@@ -894,7 +894,7 @@ return (
 
     ## ✅II. -Working on the 'Featured Posts'
 
-[COMPONENTS/HOME-PAGE/featured-posts.js]/[COMPONENTS/POSTS/posts-grid.js]
+[COMPONENTS/HOME-PAGE/featured-posts.js]/[COMPONENTS/POSTS/posts-grid.js]/[COMPONENTS/POSTS/post-item.js]
 
                                                                           ❗❗❗📮📮[FEATURED POSTS]📮📮❗❗❗
 
