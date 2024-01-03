@@ -894,11 +894,24 @@ return (
 
     ## ✅II. -Working on the 'Featured Posts'
 
+> Responsive IMG: <Image
+
+            src={imagePath}
+            alt={title}
+            width={300}
+            height={200}
+            layout="responsive"
+          />
+
 [COMPONENTS/HOME-PAGE/featured-posts.js]/[COMPONENTS/POSTS/posts-grid.js]/[COMPONENTS/POSTS/post-item.js]
 
                                                                           ❗❗❗📮📮[FEATURED POSTS]📮📮❗❗❗
 
-    ## ✅III. subtitlu
+    ## ✅III. -How to render Dummy Post Data
+
+[COMPONENTS/POSTS/post-grid.js]/[COMPONENTS/HOME-PAGE/featured-posts.js]/[PAGES/POSTS/index.js]
+
+                                                                          ❗❗❗🌼🌼[DUMMY POST DATA]🌼🌼❗❗❗
 
     ## ✅IV. subtitlu
 
