@@ -911,11 +911,41 @@ return (
 
 [COMPONENTS/POSTS/post-grid.js]/[COMPONENTS/HOME-PAGE/featured-posts.js]/[PAGES/POSTS/index.js]
 
-                                                                          ❗❗❗🌼🌼[DUMMY POST DATA]🌼🌼❗❗❗
+                                                                        ❗❗❗🌼🌼[DUMMY POST DATA]🌼🌼❗❗❗
 
-    ## ✅IV. subtitlu
+    ## ✅IV. -How to convert #Markdown to HTML text
+              -Rendering Markdown As JSX
+              -Adding Markdown Files as a data Source
+              -How to use Yaml in Markdown
+              -How to create dynamic data/info's in Markdown files, check down in description lines
+              -How to Read & Fetch Data from Markdown files
+              -How to create Functions that Read & Fetch Data from Markdown files
 
-    ## ✅V. subtitlu
+> Terminal: 'npm install react-markdown'
+> How to create a Markdown file: 'file-name.md'
+> Dynamic data: At the top write:
+>
+> ---
+>
+> title:'Your title'
+> date: '2024-03-23'
+> author: 'MCI'
+> etc...
+>
+> ---
+>
+> How to Read & Fetch Data from Markdown files. 1)Terminal: 'npm install gray-matter'
+
+[COMPONENTS/POSTS/POST-DETAIL/post-content.js]/[POSTS/getting-started-with-nextjs.md]/[LIB/posts-util.js]
+
+                                                                          ❗❗❗🔖🔖[MARKDOWN]🔖🔖❗❗❗
+
+    ## ✅V. -How to render Dynamic Post Pages & Paths
+             -How to Fetch Data's Dynamic from out Backend to displayed content
+
+[LIB/posts-util.js]/[PAGES/POSTS/slug.js]/[SECTION.12.Lesson.275]
+
+                                                                    ❗❗❗🎯🎯[FETCHING DATA DYNAMIC]🎯🎯❗❗❗
 
     ## ✅VI. subtitlu
 
