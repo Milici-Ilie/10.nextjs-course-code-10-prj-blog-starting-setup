@@ -947,7 +947,13 @@ return (
 
                                                                     ❗❗❗🎯🎯[FETCHING DATA DYNAMIC]🎯🎯❗❗❗
 
-    ## ✅VI. subtitlu
+    ## ✅VI. -Adding the Contact API Route
+              -How to create a function that check the Input data in the email Field
+              -How to send Data From The Client to the API Route
+
+[PAGES/API/contact.js]/[]
+
+                                                                    ❗❗❗🥒🥒[CONTACT API ROUTE]🥒🥒❗❗❗
 
     ## ✅VII. subtitlu
 
