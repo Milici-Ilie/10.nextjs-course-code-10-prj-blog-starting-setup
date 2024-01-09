@@ -28,9 +28,12 @@ async function handler(req, res) {
     // console.log(newMessage);//this was to see if all the Input Fields works and submit the data, the result was displayed here in the Terminal of VSCode
 
     let client;
+    //🎎🎎[NEXT.CONFIG.JS]🎎🎎
+    const connectionString = `mongodb+srv://`;
+
     try {
       client = await MongoClient.connect(
-        "mongodb+srv://Milici-Ilie:LLAR5Nmr9sTgiRRd@cluster0.rkfd97h.mongodb.net/Milici-site?retryWrites=true&w=majority"
+        "mongodb+srv://Milici-Ilie:LLAR5Nmr9sTgiRRd@cluster0.rkfd97h.mongodb.net/milici-site?retryWrites=true&w=majority"
       ); //🦋🦋[MONGO DB]🦋🦋
     } catch (error) {
       res.status(500).json({ message: "Could not connect to database." });

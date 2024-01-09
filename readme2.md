@@ -985,7 +985,16 @@ return (
 
                                                                     ❗❗❗🗾🗾[_DOCUMENT.JS]🗾🗾❗❗❗
 
-    ## ✅XI. subtitlu
+    ## ✅XI. -How to deploy NextJS app
+
+> For more info's/docs about the deploying app with NextJS check the DOC about 'next config'
+> In the DOC's the most helpful settings are: 'Redirects, Custom Headers, Base Path, Environment Variables'
+> Creating the 'next.config.js' we can change those values, check the files 'next.config.js'
+
+[SECTION.13]/[next.config.js]/[PAGES/API/contact.js]
+
+                                                                    ❗❗❗🎎🎎[NEXT.CONFIG.JS]🎎🎎❗❗❗
+
 
     ## ✅XII. subtitlu
 
