@@ -950,18 +950,40 @@ return (
     ## ✅VI. -Adding the Contact API Route
               -How to create a function that check the Input data in the email Field
               -How to send Data From The Client to the API Route
+              How to connect the Front-End Field with the Back-End Data-Base(MongoDB)
 
-[PAGES/API/contact.js]/[]
+[SECTION.12/Lesson.281]/[PAGES/API/contact.js]/[COMPONENTS/CONTACT/contact-form.js]
 
                                                                     ❗❗❗🥒🥒[CONTACT API ROUTE]🥒🥒❗❗❗
 
-    ## ✅VII. subtitlu
+    ## ✅VII. -How to use MongoDB
 
-    ## ✅VIII. subtitlu
+> Terminal: 'npm install mongodb'
 
-    ## ✅IX. subtitlu
+[SECTION.10/Lessons.240-241]/[SECTION.12/Lesson.282]/[PAGES/API/contact.js]
 
-    ## ✅X. subtitlu
+                                                                        ❗❗❗🦋🦋[MONGO DB]🦋🦋❗❗❗
+
+    ## ✅VIII. -How to create notifications in NextJS
+                -Adding UI Feedback with Notifications
+
+[COMPONENTS/UI/notification.js]/[COMPONENTS/CONTACT/contact-form.js]
+
+                                                                    ❗❗❗🔔🔔[UI NOTIFICATIONS]🔔🔔❗❗❗
+
+    ## ✅IX. -How to add 'head' Data/ Meta Data, a title for all the files
+
+[PAGES/_app.js]/[PAGES/index.js]/[PAGES/contact.js]/[PAGES/POSTS/slug.js/&/index.js]
+
+                                                                    ❗❗❗🎧🎧[HEAD/ META DATA]🎧🎧❗❗❗
+
+    ## ✅X. -How to add a "_document.js" File
+             -How to use a Portal
+             -How to use functions/ some functionallity every where we need to
+
+[PAGES/_document.js]/[COMPONENTS/UI/notification.js]
+
+                                                                    ❗❗❗🗾🗾[_DOCUMENT.JS]🗾🗾❗❗❗
 
     ## ✅XI. subtitlu
 

@@ -1,8 +1,19 @@
+import Head from "next/head"; //🎧🎧[HEAD/ META DATA]🎧🎧
+
 import PostContent from "../../components/posts/post-detail/post-content";
 import { getPostData, getPostsFiles } from "../../lib/posts-util";
 
 function PostDetailPage(props) {
-  return <PostContent post={props.post} />;
+  return (
+    <>
+      <Head>
+        <title>{props.post.title}</title>
+        <meta name="description" content={props.post.excerpt} />
+      </Head>
+      {/* 🎧🎧[HEAD/ META DATA]🎧🎧 this Meta Data is Dynamic */}
+      <PostContent post={props.post} />;
+    </>
+  );
 }
 
 export function getStaticProps(context) {
